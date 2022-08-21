@@ -15,9 +15,9 @@ class Configuration {
     // you must at least configure the next 3 lines to make this script work or use credentials in parameter when setting up the widget (see the readme on github)
     // if you don't use credentials, just enter the URL and it should work
     // as soon as credentials + URL are correct, a configuration is saved and then used. to make changes after that set overwritePersistedConfig to true
-    hbServiceMachineBaseUrl = '>enter the ip with the port here<'; // location of your system running the hb-service, e.g. http://192.168.178.33:8581
-    userName = '>enter username here<'; // username of administrator of the hb-service
-    password = '>enter password here<'; // password of administrator of the hb-service
+    hbServiceMachineBaseUrl = 'http://homebridge.local/'; // location of your system running the hb-service, e.g. http://192.168.178.33:8581
+    userName = 'admin'; // username of administrator of the hb-service
+    password = ''; // password of administrator of the hb-service
     notificationEnabled = true; // set to false to disable all notifications
 
     notificationIntervalInDays = 1; // minimum amount of days between the notification about the same topic; 0 means notification everytime the script is run (SPAM). 1 means you get 1 message per status category per day (maximum of 4 messages per day since there are 4 categories). Can also be something like 0.5 which means in a day you can get up to 8 messages
